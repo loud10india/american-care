@@ -13,8 +13,8 @@ export default function Header1({ links }) {
                     image size for support of retina screens. See details in the template documentation. *) */}
             <div className='nav-logo-wrap local-scroll'>
                 <Link href='/' className='logo'>
-                    <Image src='/assets/images/logo.svg' alt='Your Company Logo' width={105} height={34} className='light-mode-logo' />
-                    <Image src='/assets/images/logo.svg' alt='Your Company Logo' width={105} height={34} className='dark-mode-logo' />
+                    <Image src='/assets/images/logo.svg' alt='Your Company Logo' width={180} height={75} className='light-mode-logo' />
+                    <Image src='/assets/images/logo.svg' alt='Your Company Logo' width={180} height={75} className='dark-mode-logo' />
                 </Link>
             </div>
             {/* Mobile Menu Button */}
@@ -31,7 +31,7 @@ export default function Header1({ links }) {
                     <li>
                         <a href='#contact' className='opacity-1 no-hover'>
                             <span className='link-hover-anim underline' data-link-animate='y'>
-                                Let's work together
+                                Donate
                             </span>
                         </a>
                     </li>

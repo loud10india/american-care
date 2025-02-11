@@ -1,7 +1,8 @@
 import AnimatedText from "@/components/common/AnimatedText";
 import About from "@/components/homes/home-1/About";
 import Blog from "@/components/homes/home-1/Blog";
-import Contact from "@/components/homes/home-1/Contact";
+import Contact from "@/components/homes/home-7/Contact";
+
 import Gallery1 from "@/components/gallery/Gallery1";
 
 import Team from "@/components/homes/home-1/Team";
@@ -53,9 +54,9 @@ export default function Home1({ onePage = false, dark = false }) {
             <section className='page-section mt-10'>
                 <Gallery1 parantClass='col-md-4' />
             </section>
-            <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
-            <section className={`page-section  scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
-                <Contact />{" "}
+
+            <section className={`page-section  scrollSpysection   ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
+                <Contact />
             </section>
         </>
     );
