@@ -30,7 +30,7 @@ export default function Header1({ links }) {
                 <ul className='items-end clearlist local-scroll'>
                     <li>
                         <a href='#contact' className='opacity-1 no-hover'>
-                            <span className='link-hover-anim underline' data-link-animate='y'>
+                            <span className='btn btn-mod btn-large btn-round  align-middle' data-link-animate='y'>
                                 Donate
                             </span>
                         </a>

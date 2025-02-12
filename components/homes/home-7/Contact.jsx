@@ -56,28 +56,29 @@ export default function Contact() {
                         </div>
                         {/* Contact Form */}
                         <form onSubmit={(e) => e.preventDefault()} className='form contact-form' id='contact_form'>
-                            <div className='row'>
-                                <div className='col-md-6'>
-                                    {/* Name */}
-                                    <div className='form-group'>
-                                        <label htmlFor='name' style={{ color: "white" }}>
-                                            Name
-                                        </label>
-                                        <div className='input-grad-wrap round' style={{ backgroundColor: "#fff" }}>
-                                            <input
-                                                type='text'
-                                                name='name'
-                                                id='name'
-                                                className='input-md input-grad round form-control'
-                                                placeholder='Enter your name'
-                                                pattern='.{3,100}'
-                                                required
-                                                aria-required='true'
-                                            />
-                                        </div>
+                            {/* <div className='row'> */}
+                            <div className=''>
+                                {/* Name */}
+                                <div className='form-group'>
+                                    <label htmlFor='name' style={{ color: "white" }}>
+                                        Name
+                                    </label>
+                                    <div className='input-grad-wrap round' style={{ backgroundColor: "#fff" }}>
+                                        <input
+                                            type='text'
+                                            name='name'
+                                            id='name'
+                                            className='input-md input-grad round form-control'
+                                            placeholder='Enter your name'
+                                            pattern='.{3,100}'
+                                            required
+                                            aria-required='true'
+                                        />
                                     </div>
-                                    {/* End Name */}
                                 </div>
+                                {/* End Name */}
+                            </div>
+                            <div className='row'>
                                 <div className='col-md-6'>
                                     {/* Email */}
                                     <div className='form-group'>
@@ -99,7 +100,29 @@ export default function Contact() {
                                     </div>
                                     {/* End Email */}
                                 </div>
+                                <div className='col-md-6'>
+                                    {/* Email */}
+                                    <div className='form-group'>
+                                        <label htmlFor='email' style={{ color: "white" }}>
+                                            Phone
+                                        </label>
+                                        <div className='input-grad-wrap round'>
+                                            <input
+                                                type='tel'
+                                                name='mobile'
+                                                id='mobile'
+                                                className='input-md input-grad round form-control'
+                                                placeholder='Enter your number'
+                                                pattern='.{3,100}'
+                                                required
+                                                aria-required='true'
+                                            />
+                                        </div>
+                                    </div>
+                                    {/* End Email */}
+                                </div>
                             </div>
+                            {/* </div> */}
                             {/* Message */}
                             <div className='form-group'>
                                 <label htmlFor='message' style={{ color: "white" }}>
